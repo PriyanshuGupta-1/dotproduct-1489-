@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 int factorial(int n) {
     // Base case: Factorial of 0 is 1
     if (n == 0) {
@@ -20,6 +20,8 @@ int main() {
         std::cout << "Factorial of " << num << " is: " << factorial(num) << std::endl;
     }
 
+
+	cout<<"I have changes the code:"<<endl;
     return 0;
 }
 // First Change
